@@ -1,6 +1,6 @@
 import cv2
 import numpy as mp
-url = 'http://192.168.43.1:8080/video'
+url = 'your Ip address/video'
 cap=cv2.VideoCapture(url)
 while(True):
     ret,frame=cap.read()
